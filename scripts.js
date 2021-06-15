@@ -9,7 +9,6 @@ function gooi() {
     const worp = [];
 
     // (worp[x] || 0]) keert de waarde van worp[x] terug anders 0
-    // daarna 1 toevoegen terugkeren naar de array en naar de volgende
     dobbelArray.forEach(function (x) {
         worp[x] = (worp[x] || 0) + 1;
     });
